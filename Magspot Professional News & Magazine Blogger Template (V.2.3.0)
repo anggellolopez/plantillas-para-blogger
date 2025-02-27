@@ -8,10 +8,10 @@
 <b:skin version='1.0.0'><![CDATA[/*
 -----------------------------------------------
 Blogger Template Style
-Name:         Magspot
-Version:      2.3.0
-Author:       Pro Blogger Templates
-Shared:      https://monetizaalmaximo-oficial.blogspot.com/
+Name:        Magspot
+Version:     2.3.0
+Author:      Pro Blogger Templates
+Author Url:  https://probloggertemplates.com/
 -----------------------------------------------*/
 
 /*-- Customize Options (Start) --
@@ -796,7 +796,7 @@ html:not(.is-dark) .content-section .video-style{--widget-bg:var(--video-widget-
 .rtl .entry-meta .entry-comments-link:before{margin:0 0 0 4px}
 .entry-meta .entry-comments-link.show{display:flex}
 #post-body{position:relative;float:left;width:100%;font-family:var(--text-font);font-size:$(itempost.content.size);color:var(--text-color);line-height:1.6em;margin:25px 0 0}
-.post-body p{margin-bottom:25px}
+.post-body p{margin-bottom:0px}
 .post-body h1,.post-body h2,.post-body h3,.post-body h4,.post-body h5,.post-body h6{font-size:17px;color:var(--title-color);line-height:1.3em;margin:0 0 20px}
 .post-body h1{font-size:26px}
 .post-body h2{font-size:23px}
@@ -1453,8 +1453,8 @@ body#layout .footer-section > h4:after{content:' - Default Gadgets'}
 body#layout #magspot-about-section > h4:after{content:' - Site Logo, Description and Social Icons'}
 body#layout #footer-copyright > h4:after{content:' - Custom Credits'}
 body#layout #footer-menu > h4:after{content:' - Footer Links'}
-body#layout #cookie-consent-section > h4:after{content:' - Native Cookie Consent Plugin'}
-body#layout:after{content:'Shared by - www.WebDozen.com';display:none;font-family:Roboto,sans-serif;font-size:14px;color:rgba(0,0,0,0.54);line-height:1;text-align:center;visibility:visible;padding:20px 0 30px}
+body#layout #cookie-consent-section > h4:after{content:' - Advanced Cookie Consent Plugin'}
+body#layout:after{content:'\0000a9\0000a0\Pro Blogger Templates';display:none;font-family:Roboto,sans-serif;font-size:14px;color:rgba(0,0,0,0.54);line-height:1;text-align:center;visibility:visible;padding:20px 0 30px}
 body#layout #hidden-widgets{display:none!important}
 ]]></b:template-skin>
 </b:if>
@@ -1538,9 +1538,9 @@ body#layout #hidden-widgets{display:none!important}
     </b:includable>
     <b:includable id='theme-custom-lang'>
      <b:switch var='data:message'>
-        <b:case value='prevPost'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Previous Post<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Artículo Anterior<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Postagem Anterior<b:else/><data:messages.newer/></b:if>
-        <b:case value='nextPost'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Next Post<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Artículo Siguiente<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>PrÃ³xima Postagem<b:else/><data:messages.older/></b:if>
-        <b:case value='loadMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Load More<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Carga Más<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Carregar Mais<b:elseif cond='data:blog.locale.language == &quot;ar&quot;'/>ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ù…Ø²ÙŠØ¯<b:else/><data:messages.loadMorePosts/></b:if>
+        <b:case value='prevPost'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Previous Post<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>ArtÃ­culo Anterior<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Postagem Anterior<b:else/><data:messages.newer/></b:if>
+        <b:case value='nextPost'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Next Post<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>ArtÃ­culo Siguiente<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>PrÃ³xima Postagem<b:else/><data:messages.older/></b:if>
+        <b:case value='loadMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Load More<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Carga MÃ¡s<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Carregar Mais<b:elseif cond='data:blog.locale.language == &quot;ar&quot;'/>ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ù…Ø²ÙŠØ¯<b:else/><data:messages.loadMorePosts/></b:if>
       </b:switch>
       </b:includable>
     <b:includable id='widget-title'>
@@ -2745,7 +2745,7 @@ body#layout #hidden-widgets{display:none!important}
       <b:section class='header-ads container row-x1' id='header-ads' maxwidgets='1' name='Header ADS' showaddelement='yes'>
         <b:widget id='HTML1' locked='false' title='Advertisement' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://monetizaalmaximo-oficial.blogspot.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
+            <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="ttps://probloggertemplates.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
       <b:include name='html-content'/>
@@ -2886,7 +2886,7 @@ body#layout #hidden-widgets{display:none!important}
           </b:widget>
           <b:widget id='HTML22' locked='false' title='{ads}' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://monetizaalmaximo-oficial.blogspot.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="ttps://probloggertemplates.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3379,7 +3379,7 @@ body#layout #hidden-widgets{display:none!important}
           <b:section cond='data:view.isPost' id='magspot-main-before-ad' maxwidgets='1' name='Post ADS 1' showaddelement='yes'>
             <b:widget id='HTML2' locked='false' title='ads' type='HTML' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://monetizaalmaximo-oficial.blogspot.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
+                <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="ttps://probloggertemplates.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3389,7 +3389,7 @@ body#layout #hidden-widgets{display:none!important}
           <b:section cond='data:view.isPost' id='magspot-main-after-ad' maxwidgets='1' name='Post ADS 2' showaddelement='yes'>
             <b:widget id='HTML4' locked='false' title='ads' type='HTML' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://monetizaalmaximo-oficial.blogspot.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
+                <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="ttps://probloggertemplates.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3410,7 +3410,7 @@ body#layout #hidden-widgets{display:none!important}
         <b:section cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets any w =&gt; w.sectionId == &quot;magspot-post-footer-ads&quot;))' id='magspot-post-footer-ads' maxwidgets='1' name='Post ADS 3' showaddelement='yes'>
           <b:widget id='HTML9' locked='false' title='ads' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://monetizaalmaximo-oficial.blogspot.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="ttps://probloggertemplates.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3420,7 +3420,7 @@ body#layout #hidden-widgets{display:none!important}
         <b:section class='content-section' cond='data:view.isHomepage and (data:widgets any w =&gt; w.sectionId == &quot;content-section-2&quot;)' id='content-section-2' name='Content Section 2' showaddelement='yes'>
           <b:widget id='HTML18' locked='false' title='{ads}' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://monetizaalmaximo-oficial.blogspot.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="ttps://probloggertemplates.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3557,7 +3557,7 @@ body#layout #hidden-widgets{display:none!important}
           </b:widget>
           <b:widget id='HTML17' locked='false' title='{ads}' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://monetizaalmaximo-oficial.blogspot.com/"><img src="https://1.bp.blogspot.com/-HSCy4Vxr7Y8/YTZv4J9hNUI/AAAAAAAAAcU/XDNJAG2np-kW5j-RrrVOaWdYeGoD9YDMQCLcBGAsYHQ/s0/ads-300.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://probloggertemplates.com/"><img src="https://1.bp.blogspot.com/-HSCy4Vxr7Y8/YTZv4J9hNUI/AAAAAAAAAcU/XDNJAG2np-kW5j-RrrVOaWdYeGoD9YDMQCLcBGAsYHQ/s0/ads-300.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3664,7 +3664,7 @@ body#layout #hidden-widgets{display:none!important}
       <b:section class='footer-ads container row-x1' id='footer-ads' maxwidgets='1' name='Footer ADS' showaddelement='yes'>
         <b:widget id='HTML3' locked='false' title='ads' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://monetizaalmaximo-oficial.blogspot.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
+            <b:widget-setting name='content'><![CDATA[<a class="pbt-ad" href="https://probloggertemplates.com/"><img src="https://1.bp.blogspot.com/-972Xp-wzqaQ/YTdlSm-Yd7I/AAAAAAAAAdE/lIGA_quGiJg02MqICVN2Ztx7mrdtIgyJACLcBGAsYHQ/s0/ads.png" alt="Magspot Blogger Template"/></a>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3888,7 +3888,7 @@ body#layout #hidden-widgets{display:none!important}
         <b:section class='footer-copyright' id='footer-copyright' maxwidgets='1' name='Footer Copyright' showaddelement='yes'>
           <b:widget id='Text50' locked='true' title='' type='Text' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[Theme by - <a href="#" title="Your Name"><b>@Your Name</b></a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[Design by - <a href="https://probloggertemplates.com/" title="Pro Blogger Templates"><b>Pro Blogger Templates</b></a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='text-content'/>
