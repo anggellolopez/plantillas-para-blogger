@@ -3948,7 +3948,7 @@ body#layout #hidden-widgets{display:none!important}
 <div class='overlay'/>
 <a class='btn' href='#' id='back-top' role='button' title='Back To Top'/>
 <b:section class='hidden-widgets' cond='data:view.isSingleItem' deleted='true' id='hidden-widgets' maxwidgets='1' showaddelement='no'>
-  <b:widget id='ContactForm1' locked='true' title='Ù†Ù…ÙˆØ°Ø¬ Ø§Ù„Ø§ØªØµØ§Ù„' type='ContactForm' visible='true'>
+  <b:widget id='ContactForm1' locked='true' title='Formulario de contacto' type='ContactForm' visible='true'>
     <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
       <b:include name='content'/>
