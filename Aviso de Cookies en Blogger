@@ -33,7 +33,7 @@ Luego, utiliza el siguiente código CSS para dar estilo al Aviso de Cookies. Deb
 .cookie-content .buttons button{padding:8px 10px;border:none;outline:0;color:var(--color-texto-boton-aceptar);font-size:15px;font-weight:500;border-radius:5px;background:var(--color-boton-aceptar);cursor:pointer;transition:all .3s ease}
 .cookie-content .buttons button:hover{transform:scale(0.97)}
 .buttons .item{margin:0 10px}
-.cookie-content .buttons a{color:var(--color-texto-leer-mas);font-weight:700}
+.cookie-content .buttons a{color:var(--color-texto-leer-mas);font-weight:500}
 /* Fin Estilos del Aviso de Cookies */
 
 Paso 3: Agregar el JavaScript
