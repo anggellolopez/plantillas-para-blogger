@@ -4,7 +4,7 @@ Paso 1: Agregar el HTML
 Este código define la estructura del Aviso de Cookies y lo coloca en la parte inferior de tu sitio web. Debes copiarlo y pegarlo debajo 
 de la etiqueta <body Recuerda colocar la URL de la página de Cookies en lugar del texto ENLACE A LA PÁGINA DE COOKIES. 
  
-  <div class='cookie-container'>
+<div class='cookie-container'>
 <div class='cookie-content'>
 Para mejorar tu experiencia de usuario, estamos utilizando cookies que nos ayudan a saber tus preferencias.
 <div class='buttons'>
