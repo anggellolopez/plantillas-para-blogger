@@ -1,0 +1,61 @@
+Los códigos HTML, JavaScript y CSS proporcionados te permitirán crear un Aviso de Cookies personalizado, pero antes debes seguir estos pasos:
+
+Paso 1: Agregar el HTML
+Este código define la estructura del Aviso de Cookies y lo coloca en la parte inferior de tu sitio web. Debes copiarlo y pegarlo debajo 
+de la etiqueta <body Recuerda colocar la URL de la página de Cookies en lugar del texto ENLACE A LA PÁGINA DE COOKIES. 
+ 
+  <div class='cookie-container'>
+<div class='cookie-content'>
+Para mejorar tu experiencia de usuario, estamos utilizando cookies que nos ayudan a saber tus preferencias.
+<div class='buttons'>
+<button class='item'>Permitir</button>
+<a class='item' href='ENLACE A LA PÁGINA DE COOKIES' target='_blank'>¿Quieres saber más?</a>
+</div> 
+</div> 
+</div>
+
+Paso 2: Agregar el CSS
+Luego, utiliza el siguiente código CSS para dar estilo al Aviso de Cookies. Debes buscar la etiqueta ]]></b:skin>  y pegar el código arriba.
+
+/* Estilos del Aviso de Cookies */
+:root{
+  --color-fondo-aviso: #0a0a0a;                /* Color de fondo del Aviso de Cookies */
+  --color-del-parrafo: #ffffff;                /* Color del texto del Aviso de Cookies */
+  --tamano-parrafo: 15px;                   /* Tamaño de fuente del texto del aviso de cookies */
+  --color-boton-aceptar: #f49d07;          /* Color de fondo del botón "¿Quieres saber más?" en el Aviso de Cookies */
+  --color-texto-boton-aceptar: #0a0a0a;       /* Color del texto del botón "¿Quieres saber más?" en el Aviso de Cookies */
+  --color-texto-leer-mas: #31a8f0;         /* Color del texto del enlace "Permitir" en el Aviso de Cookies */
+}
+.cookie-container{position:fixed;bottom:-100%;left:0;right:0;z-index:999999999999999;transition:400ms;background:var(--color-fondo-aviso);padding:10px;box-shadow:1px 7px 14px -5px rgba(0,0,0,.15);text-align:center;font-size:var(--tamano-parrafo)}
+.cookie-content{color:var(--color-del-parrafo)}
+.cookie-container.active{bottom:0}
+.cookie-content .buttons{display:inline-flex;align-items:center;justify-content:center}
+.cookie-content .buttons button{padding:8px 10px;border:none;outline:0;color:var(--color-texto-boton-aceptar);font-size:15px;font-weight:500;border-radius:5px;background:var(--color-boton-aceptar);cursor:pointer;transition:all .3s ease}
+.cookie-content .buttons button:hover{transform:scale(0.97)}
+.buttons .item{margin:0 10px}
+.cookie-content .buttons a{color:var(--color-texto-leer-mas);font-weight:700}
+/* Fin Estilos del Aviso de Cookies */
+
+Paso 3: Agregar el JavaScript
+Finalmente, incluye el siguiente código JavaScript para hacer que el Aviso de Cookies sea funcional. Este codgo debes pegarlo arriba de la etiqueta </body
+
+  <script>
+const cookieContainer = document.querySelector(&quot;.cookie-container&quot;);
+const cookieButton = document.querySelector(&quot;.buttons .item&quot;);
+
+
+cookieButton.addEventListener(&quot;click&quot;, () =&gt; {
+cookieContainer.classList.remove(&quot;active&quot;);
+localStorage.setItem(&quot;cookieBannerDisplayed&quot;, &quot;true&quot;);
+});
+
+
+setTimeout(() =&gt; {
+if (!localStorage.getItem(&quot;cookieBannerDisplayed&quot;)) {
+cookieContainer.classList.add(&quot;active&quot;);
+}
+}, 2000);
+</script>
+
+Paso 4: Si aun no logras poner a funcionar el Aviso de Cookies en Blogger no pasa nada, solo mira el siguiente video y trata de seguir una a una las indicaciones
+https://youtu.be/F4wBXDPQIck?si=poS-faHRQEk9V634 
