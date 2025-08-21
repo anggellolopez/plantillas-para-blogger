@@ -26,14 +26,14 @@ Luego, utiliza el siguiente código CSS para dar estilo al Aviso de Cookies. Deb
   --color-texto-boton-aceptar: #0a0a0a;       
   --color-texto-leer-mas: #31a8f0;         
 }
-.cookie-container{position:fixed;bottom:-100%;left:0;right:0;z-index:999999999999999;transition:400ms;background:var(--color-fondo-aviso);padding:10px;box-shadow:1px 7px 14px -5px rgba(0,0,0,.15);text-align:center;font-size:var(--tamano-parrafo)}
+.cookie-container{position:fixed;bottom:-100%;left:0;right:0;z-index:999999999999999;transition:400ms;background:var(--color-fondo-aviso);padding:15px;box-shadow:1px 7px 14px -5px rgba(0,0,0,.15);text-align:center;font-size:var(--tamano-parrafo)}
 .cookie-content{color:var(--color-del-parrafo)}
 .cookie-container.active{bottom:0}
 .cookie-content .buttons{display:inline-flex;align-items:center;justify-content:center}
-.cookie-content .buttons button{padding:8px 10px;border:none;outline:0;color:var(--color-texto-boton-aceptar);font-size:15px;font-weight:500;border-radius:5px;background:var(--color-boton-aceptar);cursor:pointer;transition:all .3s ease}
+.cookie-content .buttons button{padding:10px 15px;border:none;outline:0;color:var(--color-texto-boton-aceptar);font-size:16px;font-weight:500;border-radius:5px;background:var(--color-boton-aceptar);cursor:pointer;transition:all .3s ease}
 .cookie-content .buttons button:hover{transform:scale(0.97)}
 .buttons .item{margin:0 10px}
-.cookie-content .buttons a{color:var(--color-texto-leer-mas);font-weight:500}
+.cookie-content .buttons a{color:var(--color-texto-leer-mas);font-weight:700}
 /* Fin Estilos del Aviso de Cookies */
 
 Paso 3: Agregar el JavaScript
