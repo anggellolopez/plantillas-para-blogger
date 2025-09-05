@@ -1452,7 +1452,7 @@ body#layout .footer-section > h4:after{content:' - Default Gadgets'}
 body#layout #magspot-about-section > h4:after{content:' - Site Logo, Description and Social Icons'}
 body#layout #footer-copyright > h4:after{content:' - Custom Credits'}
 body#layout #footer-menu > h4:after{content:' - Footer Links'}
-body#layout #cookie-consent-section > h4:after{content:' - Native Cookie Consent Plugin'}
+body#layout #cookie-consent-section > h4:after{content:' - Advanced Native Cookie Consent Plugin'}
 body#layout:after{content:'Design by - ProBloggerTemplates.com';display:block;font-family:Roboto,sans-serif;font-size:14px;color:rgba(0,0,0,0.54);line-height:1;text-align:center;visibility:visible;padding:20px 0 30px}
 body#layout #hidden-widgets{display:none!important}
 ]]></b:template-skin>
